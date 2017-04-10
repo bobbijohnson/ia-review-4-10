@@ -35,9 +35,7 @@ var sizes= [10,20,30,40,50]
 function rowOfCircles(){
     for(var i = 0; i < 5; i++){
         stroke(4);
-        ellipse((3+1)*100,100, sizes[3], sizes[3]);
-        ellipse((5+1)*300,300, sizes[5], sizes[5]);
-        ellipse((1+1)*600,600, sizes[1], sizes[1]);
-        ellipse((2+1)*200,200, sizes[2], sizes[2]);
+        ellipse((i+1)*100,100, sizes[i], sizes[i]);
+        
     }
 }
